@@ -1,0 +1,14 @@
+venv/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# VSCode
+.vscode/
+
+# Streamlit / Other temp files
+*.db
+*.sqlite3
