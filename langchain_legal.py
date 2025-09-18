@@ -8,11 +8,10 @@ def get_legal_chain():
     """
     Returns a LangChain conversational chain using Google Gemini for legal summarization.
     """
-    # Check for Gemini API key
+
     if "GOOGLE_API_KEY" not in os.environ:
         raise ValueError("Please set your GOOGLE_API_KEY environment variable.")
 
-    # Initialize Gemini LLM
     llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash-latest", temperature=0.3)
 
     prompt = ChatPromptTemplate.from_messages([
