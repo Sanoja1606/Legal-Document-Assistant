@@ -1,4 +1,5 @@
 **Legal AI Assistant** ⚖️
+
 This project is a user-friendly AI Legal Assistant built with Python, LangChain, and Google Gemini. It's designed to help you quickly understand complex legal documents, such as contracts. The application uses the advanced capabilities of the Gemini large language model to summarize contract clauses in plain English, highlight potential risks, and provide actionable advice.
 
 *Features* ✨
