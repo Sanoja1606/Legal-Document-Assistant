@@ -3,6 +3,7 @@
 This project is a user-friendly AI Legal Assistant built with Python, LangChain, and Google Gemini. It's designed to help you quickly understand complex legal documents, such as contracts. The application uses the advanced capabilities of the Gemini large language model to summarize contract clauses in plain English, highlight potential risks, and provide actionable advice.
 
 *Features* ✨
+
 PDF Processing: Upload a PDF contract directly to the app for text extraction and analysis.
 
 Text Input: Paste contract text into a text area for analysis.
@@ -14,9 +15,11 @@ Risk Highlighting: The AI identifies clauses that could be problematic (e.g., re
 Actionable Advice: Alongside potential risks, the tool offers practical advice to help you navigate legal documents.
 
 *How It Works* 🧠
+
 The application uses a LangChain conversational chain. A Streamlit front end provides the user interface. When you input text or upload a PDF, the application sends the content to the Gemini model via the LangChain chain. The model, instructed to act as a legal assistant, then generates a summarized and analyzed response, which is displayed in the app.
 
 *Prerequisites*🛠️
+
 Python 3.8+
 
 A Google Cloud Project with the Generative Language API enabled to get your API key.
@@ -26,6 +29,7 @@ A Google Cloud Project with the Generative Language API enabled to get your API 
 
 
 *Getting Started* 🚀
+
 Clone the repository (or save the provided code files) to your local machine.
 
 Install the required libraries:
